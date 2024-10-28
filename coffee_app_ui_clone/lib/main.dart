@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-        //colorScheme: const ColorScheme.dark().copyWith(primary: ThemeColors.primaryColorOrange),
+        primarySwatch: Colors.orange, //olmuyo hala
         colorScheme: ThemeData.dark().colorScheme.copyWith(primary: ThemeColors.primaryColorOrange),
         brightness: Brightness.dark,
       )
