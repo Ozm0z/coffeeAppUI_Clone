@@ -1,1 +1,2 @@
-Buralar hep dutluktu... (düzenlenecek)
+Bu uygulama tamamen UI tasarımı olarak yazılmış olup işlevsellik barındırmamaktadır. son commitimle beraber:
+Liste oluşturulup seçeneklerde tıklayınca renk değişimi olması için fonksiyon yazıldı. Farklı içecek türleri eklendi. textField e tıklayınca klavye açılıyor ve pixel hatası alınıyor çünkü Container kısalıyor ama container içindeki + butonu olduğu yerde kalıyor. ayrıca o buton depil sadece icon olarak eklendi.
