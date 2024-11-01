@@ -19,6 +19,18 @@ class _HomePageState extends State<HomePage> {
     [LanguageItems().black, false],
     [LanguageItems().latte, false],
     [LanguageItems().tea, false],
+    [LanguageItems().cappucino, true],
+    [LanguageItems().black, false],
+    [LanguageItems().latte, false],
+    [LanguageItems().tea, false],
+    [LanguageItems().cappucino, true],
+    [LanguageItems().black, false],
+    [LanguageItems().latte, false],
+    [LanguageItems().tea, false],
+    [LanguageItems().cappucino, true],
+    [LanguageItems().black, false],
+    [LanguageItems().latte, false],
+    [LanguageItems().tea, false],
   ];
 
   //listenin kaçıncı elemanında olduğumuzu index söylüyor, o indexin içindeki başka index ise yanında
@@ -140,10 +152,11 @@ class _BottomNavBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return BottomNavigationBar(items: const [
-      BottomNavigationBarItem(icon: Icon(Icons.home), label: 'a'),
-      BottomNavigationBarItem(icon: Icon(Icons.favorite), label: ''),
-      BottomNavigationBarItem(icon: Icon(Icons.notifications), label: ''),
+    return BottomNavigationBar(fixedColor: Colors.amber, items: [
+      BottomNavigationBarItem(icon: Icon(Icons.home, color: ColorsUtility.themeOrange), label: ''),
+      BottomNavigationBarItem(icon: Icon(Icons.home, color: ColorsUtility.themeOrange), label: ''),
+      BottomNavigationBarItem(icon: Icon(Icons.home, color: ColorsUtility.themeOrange), label: ''),
+      BottomNavigationBarItem(icon: Icon(Icons.home, color: ColorsUtility.themeOrange), label: '')
     ]);
   }
 }
